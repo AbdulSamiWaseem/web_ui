@@ -1,9 +1,15 @@
 .ui-scroll{
     margin-top: 1rem;
+    
 }
 .ui-scroll>h1{
     font-weight: 500;
     margin-bottom: 0.5rem;
+}
+.slider{
+    background-color: #FF8C00;
+    padding: 30px;
+    padding-top: 0;
 }
 .scroll{
     background-color: #FF8C00;

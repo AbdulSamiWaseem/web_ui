@@ -12,11 +12,12 @@ const Scroll = () => {
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows:false,
+        // arrows:false,
     };
     return (
         <div className='ui-scroll'>
             <h1><BsWindowFullscreen size={20} /> Synergization</h1>
+            <div className='slider'>
             <Slider  {...settings}>
                 <div>
                     <div className='scroll'>
@@ -37,6 +38,7 @@ const Scroll = () => {
                     </div>
                 </div>
             </Slider>
+            </div>
         </div>
     );
 
