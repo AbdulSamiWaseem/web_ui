@@ -58,12 +58,6 @@
 }
 @media screen and (max-width:768px) {
     .engage2-detail>div>div>p{
-        font-size: 0.65rem;
-    
-    }
-}
-@media screen and (max-width:425px) {
-    .engage2-detail>div>div>p{
         font-size: 0.85rem;
     
     }
