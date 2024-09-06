@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
         </div>
         <div className='ui-navbar-input'>
-          <input />
+          <input/>
           <button><IoSearch /> Search</button>
         </div>
         <div className='menu'>
@@ -51,7 +51,7 @@ const Navbar = () => {
             }
           </div>
           <div className='ui-menu-input'>
-            <input />
+            <input/>
             <button><IoSearch /> Search</button>
           </div>
 
