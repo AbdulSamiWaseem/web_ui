@@ -1,0 +1,37 @@
+.engage {
+    margin-top: 1rem;
+    border: 1px solid #DDDDDD;
+    width: 100%;
+    border-radius: 3px;
+}
+
+.engage-head {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+}
+.engage-head>svg{
+    margin-right: 0.25rem;
+}
+.engage >div>p{
+    padding: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+}
+.engage > div>button{
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    margin-top: 0rem;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1rem;
+
+}
+.engage > div>button:hover{
+    background-color: #E6E6E6;
+    border: 1px solid #ADADAD;
+}

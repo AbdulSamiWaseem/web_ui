@@ -1,0 +1,27 @@
+.comments{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.comments-head{
+    background-color: #DFF0D8;
+    color: #3C763D;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    border: 1px solid #D6E9C6;
+    border-radius: 5px;
+    padding: 0 1rem;
+}
+.comments-head >p>span{
+    font-weight: 700;
+}
+.cross{
+    color: #c0cbb7;
+}
+.cross:hover{
+    color: #6F786C;
+}

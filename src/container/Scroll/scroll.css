@@ -1,0 +1,31 @@
+.ui-scroll{
+    margin-top: 1rem;
+}
+.ui-scroll>h1{
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.scroll{
+    background-color: #FF8C00;
+    height: 18rem;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.scroll >h2{
+    text-align: center;
+    padding-bottom: 1rem;
+    text-shadow: 1px 2px 3px black;
+}
+.scroll >p{
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 3px black;
+
+}
+@media screen and (max-width:768px) {
+    .ui-scroll>h1{
+        font-size: 1.5rem;
+    }
+}

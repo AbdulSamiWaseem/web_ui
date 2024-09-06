@@ -1,0 +1,30 @@
+.options{
+    border: 1px solid #DDDDDD;
+    border-radius: 3px;
+    width: 100%;
+}
+.options p{
+    border-bottom: 1px solid #DDDDDD ;
+    padding: 0.5rem 1rem;
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+.options-first{
+    background-color: #F5F5F5;
+    font-size: 1rem !important;
+    opacity: 1 !important;
+    display: flex;
+    align-items: center;
+}
+.options-last{
+    border-bottom: none!important ;
+}
+.options p:hover{
+    background-color: #F5F5F5;
+}
+.options p:active{
+    background-color: #F5F5F5;
+}
+@media screen and (max-width:425px) {
+    
+}

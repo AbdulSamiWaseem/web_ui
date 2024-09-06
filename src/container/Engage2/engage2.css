@@ -1,0 +1,70 @@
+.engage2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #E6E6E6;
+    margin-top: 1rem;
+    border-radius: 5px; 
+}
+.engage2-head{
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+}
+.engage2-detail{
+    margin-bottom:2rem;
+}
+.engage2-detail>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2rem;
+    margin: 0.5rem 0;
+}
+.engage2-detail>div>div{
+    width: 90%;
+    background-color:#F5F5F5;
+    color: white;
+
+}
+.engage2-detail>div>div>p{
+    border-radius: 5px;
+    font-size: 0.75rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line-1{
+    width: 100%;
+    background-color: #5CB85C;
+}
+.line-2{
+    width: 80%;
+    background-color: #5BC0DE;
+}
+.line-3{
+    width: 45%;
+    background-color: #F0AD4E;
+}
+.line-4{
+    width: 35%;
+    background-color: #D9534F;
+}
+@media screen and (max-width:768px) {
+    .engage2-detail>div>div>p{
+        font-size: 0.65rem;
+    
+    }
+}
+@media screen and (max-width:425px) {
+    .engage2-detail>div>div>p{
+        font-size: 0.85rem;
+    
+    }
+}

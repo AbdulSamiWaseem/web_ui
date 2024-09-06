@@ -1,0 +1,26 @@
+.term {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0rem;
+}
+.term-links{
+    padding: 1rem 0rem;
+}
+.term-links a {
+    color: #337AB7;
+    cursor: pointer;
+}
+
+.term-links a>span {
+    color: black;
+}
+
+.term-links a:hover {
+    color: #23527C;
+}
+.term-copy{
+    font-size: 0.9rem;
+    padding-bottom: 2rem;
+}

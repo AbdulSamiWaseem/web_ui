@@ -1,0 +1,75 @@
+.comment{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #EEEEEE ;
+
+}
+.comment >h1{
+    font-weight: 200;
+}
+.comment >p{
+    font-size: 0.95rem;
+    margin: 1rem 0;
+    font-weight: 100;
+    opacity: 0.9;
+    line-height: 1.5rem;
+}
+.comment >button{
+    padding: 0.5rem;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    width: 6rem;
+}
+.comment>button:hover{
+    background-color: #E6E6E6;
+    border: 1px solid #ADADAD;
+}
+.comment-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+.comment-detail-a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.comment-detail-a >a{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1rem;
+    cursor: pointer;
+    color: rgb(80, 166, 200);
+
+}
+.comment-detail-a > a:hover{
+    color: #337AB7;
+}
+.comment-detail-a >a>svg{
+    margin-right: 0.25rem;
+}
+.comment-detail-b{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+.comment-detail-b >p{
+    background-color: #777777;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    margin-right: 0.25rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 2px;
+}
+@media screen and (max-width:768px) {
+    .comment >button{
+        font-size: 0.9rem;
+    }
+}
